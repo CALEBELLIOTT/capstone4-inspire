@@ -1,1 +1,24 @@
 /* BASIC STYLES HERE */
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.text-outline {
+  color: rgb(241, 241, 241);
+  text-shadow: black 0px 0px 3px;
+}
+
+.time-row {
+  height: 50vh;
+}
+
+.time {
+  font-size: 7em;
+}
+
+.tasks-container {
+  background-color: black;
+  width: 20vw;
+}
