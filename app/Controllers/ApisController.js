@@ -4,7 +4,6 @@ import { Pop } from "../Utils/Pop.js";
 
 export class ApisController {
   constructor() {
-    this.loadApis()
   }
 
   async loadApis() {

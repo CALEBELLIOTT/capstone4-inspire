@@ -10,10 +10,6 @@ export const bcwApi = axios.create({
 
 class ApisService {
 
-  async getQuote() {
-    const res = await bcwApi.get('quotes')
-    ProxyState.quote = res.data
-  }
 
 }
 

@@ -22,3 +22,14 @@ body {
   background-color: black;
   width: 32vw;
 }
+
+.quote-text {
+  color: rgb(241, 241, 241);
+  text-shadow: black 0px 0px 3px;
+  text-align: center;
+}
+
+.quote-author {
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
