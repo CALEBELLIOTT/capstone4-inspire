@@ -47,7 +47,7 @@
             <form action="" onsubmit="app.tasksController.createTask()" id="task-form">
               <div class="row">
                 <div class="col-10">
-                  <input type="text" name="task" id="task" class="form-control">
+                  <input type="text" name="task" id="task" required class="form-control">
                 </div>
                 <div class="col-2 d-flex align-items-center selectable text-left">
                   <button type="submit" class="btn btn-light"><i class="mdi mdi-check"></i></button>
@@ -62,10 +62,10 @@
       <div class="row quote-text mt-5">
         <div class="col-12 d-flex justify-content-center">
           <h2 id="quote" onmouseover="app.quotesController.authorReveal()"
-            onmouseleave="app.quotesController.authorHide()">This is a quote</h2>
+            onmouseleave="app.quotesController.authorHide()"></h2>
         </div>
         <div class="col-12 d-flex justify-content-center">
-          <p id="quote-author" class="quote-author">Mark L Whalberg</p>
+          <p id="quote-author" class="quote-author"></p>
         </div>
       </div>
     </div>
